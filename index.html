@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta content='IE=9' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, minimum-scale=1, maximum-scale=1' name='viewport'>
+    <link href='assets/css/application.css' media='screen' rel='stylesheet' type='text/css'>
+    <title>I nomi a Treviso</title>
+    <meta content='I nomi a Treviso' property='og:title'>
+    <meta content='article' property='og:type'>
+    <meta content='' property='og:description'>
+    <meta content='it_IT' property='og:locale'>
+    <meta content='width=960, initial-scale=1.0' name='viewport'>
+    <script data-main='assets/js/main' src='assets/js/lib/require.js'></script>
+</head>
+
+<body>
+<div id='fb-root'></div>
+<div id='title'>
+    <h2>Dal 1950 al 2010:</h2>
+
+    <h1>60 anni di nomi a Treviso</h1>
+</div>
+<div id='content'>
+    <div id='left_side'>
+        <form id='search'>
+            <input src='/assets/images/search.png' type='image'>
+            <input autocomplete='off' type='text'>
+            <a class='clear' href='#' style='display: none'>
+                <img src='/assets/images/clear.png'>
+            </a>
+        </form>
+        <div id='prenoms_list_container'>
+            <div class='loading'>
+                <img alt='spinner' src='/assets/images/spinner.gif'>
+                <br>
+                <br>
+                Caricamento lista dei nomi...
+            </div>
+            <ul></ul>
+        </div>
+    </div>
+    <div id='right_side'>
+        <svg>
+            <defs>
+                <clipPath id='graphs_clip_path'>
+                    <rect></rect>
+                </clipPath>
+            </defs>
+            <rect id='playground_bg'></rect>
+            <g class='axis' id='x_axis'></g>
+            <g class='axis' id='y_axis'></g>
+            <g id='prenoms'>
+                <g id='lines'></g>
+                <g id='circles'></g>
+                <g id='labels'></g>
+            </g>
+            <g id='popup'></g>
+            <g id='year_zoomers'></g>
+        </svg>
+    </div>
+</div>
+</body>
+</html>
