@@ -1,5 +1,5 @@
-# TrevisoStats
+# Frequenza dei Nomi a Treviso
 
-Statistics and city metrics of Treviso (Italy).
+Visualizzazione dati sull'andamento delle frequenze dei nomi nella città di Treviso
 
-See it in action [here](http://trevisostats.herokuapp.com).
+Trova il tuo nome [qui](http://nomitreviso.herokuapp.com).
